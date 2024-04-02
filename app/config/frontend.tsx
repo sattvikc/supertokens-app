@@ -19,7 +19,9 @@ export const frontendConfig = (): SuperTokensConfig => {
             ThirdPartyReact.init({
                 signInAndUpFeature: {
                     providers: [
-                        ThirdPartyReact.BoxySAML.init(),
+                        ThirdPartyReact.BoxySAML.init({
+                            name: "Microsoft Login",
+                        }),
                     ],
                 },
             }),

@@ -24,6 +24,7 @@ export let backendConfig = (): TypeInput => {
                         {
                             config: {
                                 thirdPartyId: "boxy-saml",
+                                name: "Microsoft Login",
                                 clients: [
                                     {
                                         clientId:
